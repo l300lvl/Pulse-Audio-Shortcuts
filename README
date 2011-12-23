@@ -1,0 +1,1 @@
+Adds Pulse audio shortcuts to the Sound Menu. Read through the extension.js file to choose which entries to hide/show. By default this only displays PA Volume Control &amp;amp; PA Preferences at the end of the Sound/Volume Menu, preceded by a seperator. The extension is also simple enough to use as a great starting point for others.
