@@ -1,1 +1,14 @@
-Adds Pulse audio shortcuts to the Sound Menu. Read through the extension.js file to choose which entries to hide/show. By default this only displays PA Volume Control &amp;amp; PA Preferences at the end of the Sound/Volume Menu, preceded by a seperator. The extension is also simple enough to use as a great starting point for others.
+Adds Pulse audio shortcuts to the Volume Menu. 
+
+By default this(V2) now shows ALL options, and you must edit the extension.js to change what is shown, the options can be changed at the top around line 12. 
+
+This requires the apps to already be installed, and does not install them for you. To verify they are installed open a terminal and try to run any of the following:
+pavucontrol
+paprefs
+pavumeter
+pulseaudio-equalizer
+paman
+
+The shortcuts are now displayed above Sound Settings instead of below, and when used with the MediaIntegration extension they will show above it as well, after a shell restart(alt f2, r)
+
+~1 click install from E.G.O: https://extensions.gnome.org/extension/109/pulse-audio-shortcuts/
