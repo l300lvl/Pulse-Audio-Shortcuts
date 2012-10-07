@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="gnome-shell-extensions-PulseAudioShortcuts">
+  <schema path="/org/gnome/shell/extensions/PulseAudioShortcuts/" id="org.gnome.shell.extensions.PulseAudioShortcuts">
+    <key name="label-menu" type="s">
+      <default>'PulseAudio Shortcuts'</default>
+      <summary>Label Menu</summary>
+      <description/>
+    </key>
+    <key name="enable-items" type="s">
+      <default>'0;1;2;3;4;5;6'</default>
+      <summary>Items Enabled</summary>
+      <description/>
+    </key>
+  </schema>
+</schemalist>

@@ -1,0 +1,7 @@
+Volume Control;pavucontrol.desktop;pavucontrol
+Preferences;papfrefs.desktop;paprefs
+Volume Meter;pavumeter.desktop;pavumeter
+Equalizer;pulseaudio-equalizer.desktop;pulseaudio-equalizer
+Manager;paman.desktop;paman
+Q Equalizer;qpaeq.desktop;qpaeq
+GStreamer Properties;gstreamer-properties.desktop;gstreamer-properties
