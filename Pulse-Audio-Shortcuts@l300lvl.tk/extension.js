@@ -123,6 +123,10 @@ function init(extensionMeta) {
             break;
         case"10": age = "new3";
             break;
+        case"12": age = "new3";
+            break;
+        case"14": age = "new3";
+            break;            
         default: throw new Error("Strange version number (extension.js:45).");
     }
 
