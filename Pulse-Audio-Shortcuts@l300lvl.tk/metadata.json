@@ -6,11 +6,13 @@
     "3.4",
     "3.6",
     "3.8",
-    "3.10"
+    "3.10",
+    "3.12",
+    "3.14"
   ], 
   "name": "Pulse Audio Shortcuts", 
   "original-author": "l300lvl", 
   "url": "https://github.com/l300lvl/Pulse-Audio-Shortcuts", 
   "uuid": "Pulse-Audio-Shortcuts@l300lvl.tk", 
-  "version": 14
+  "version": 15
 }
