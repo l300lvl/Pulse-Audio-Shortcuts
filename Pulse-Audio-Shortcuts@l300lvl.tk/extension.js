@@ -119,11 +119,21 @@ function init(extensionMeta) {
         case"5": global.log("Warning of extension [" + metadata.uuid + "]:\n              Development release detected (" + Config.PACKAGE_VERSION + "). Loading as a 3.6 release.\n"); //eak
         case"6": age = "new";
             break;
+        case"8": age = "new2";
+            break;
+        case"10": age = "new3";
+            break;
+        case"12": age = "new3";
+            break;
+        case"14": age = "new3";
+            break;            
         default: throw new Error("Strange version number (extension.js:45).");
     }
 
     if (age=="old") volumeMenu = Main.panel._statusArea.volume;
-    else            volumeMenu = Main.panel.statusArea.volume;
+    else if (age=="new") volumeMenu = Main.panel.statusArea.volume;
+    else if (age=="new2") volumeMenu = Main.panel.statusArea.volume;
+    else            volumeMenu = Main.panel.statusArea.aggregateMenu
 
     return new PulseAudioShortcuts(extensionMeta);
 }
